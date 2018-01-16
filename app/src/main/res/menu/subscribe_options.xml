@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/building_only"
+        android:title="@string/building_only" />
+
+    <item
+        android:id="@+id/district_wide"
+        android:title="@string/district_wide" />
+
+    <item
+        android:id="@+id/unsubscribe"
+        android:title="@string/unsubscribe" />
+
+</menu>

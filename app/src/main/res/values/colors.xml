@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A61D3D</color>
+    <color name="colorPrimaryDark">#A61D3D</color>
+    <color name="colorAccent">#40c4ff</color>
+
+    <color name="primary_text">#000000</color>
+    <color name="header_background">#d95070</color>
+    <color name="recyclerview_background">#D3D3D3</color> 
+    <!-- <color name="recyclerview_background">#efe6e1</color> -->
+    <color name="notification_highlight">#facfcf</color>
+    <color name="notification_shaded">#e2e2e2</color>
+    <!-- Notification Settings -->
+    <color name="notification_enabled">#3FC380</color>
+    <color name="notification_disabled">#EB5757</color>
+</resources>

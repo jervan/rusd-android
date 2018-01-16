@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/solid_rusd_main_color"
+    tools:context="edu.uwp.appfactory.rusd.ui.login.LoginActivity">
+
+    <ImageView
+        android:id="@+id/login_rusd_logo"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/rusd_image_height"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/rusd_logo_title"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/rusd_logo"/>
+
+    <TextView
+        android:id="@+id/username_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/margin_padding_normal"
+        app:layout_constraintTop_toBottomOf="@+id/informationSystems"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/username_edit_text"
+        />
+
+    <TextView
+        android:id="@+id/password_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/margin_padding_normal"
+        app:layout_constraintTop_toBottomOf="@+id/username_edit_text"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/password_edit_text"/>
+
+    <EditText
+        android:id="@+id/username_edit_text"
+        android:layout_width="267dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="7dp"
+        app:layout_constraintTop_toBottomOf="@+id/username_text_view"/>
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="267dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/password_text_view"
+        app:layout_constraintHorizontal_bias="0.506"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_rect_selector"
+        android:padding="16dp"
+        android:paddingEnd="48dp"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp"
+        android:paddingStart="48dp"
+        android:text="@string/login"
+        android:textColor="@drawable/login_button_text_color_selector"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/password_edit_text"
+        app:layout_constraintRight_toRightOf="@+id/password_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/password_edit_text"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline4"
+        app:layout_constraintGuide_percent="0.05"
+        android:orientation="horizontal"/>
+
+    <TextView
+        android:id="@+id/informationSystems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/rusd_is_name"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        tools:text="Information Systems"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        android:layout_marginTop="@dimen/margin_padding_xtiny"
+        app:layout_constraintTop_toBottomOf="@+id/login_rusd_logo"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/username_edit_text"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/username_edit_text"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/login_info"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintLeft_toLeftOf="@+id/login_button"
+        app:layout_constraintRight_toRightOf="@+id/login_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="20dp"/>
+
+</android.support.constraint.ConstraintLayout>

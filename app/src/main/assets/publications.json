@@ -1,0 +1,62 @@
+[
+  {
+    "name": "T2",
+    "image": "pub_t2.png",
+    "URL": "https://docs.google.com/a/rusd.org/document/d/1VSlo52-0SjMHD-oTkeMsZM0Y1Uslt3SqGqQSSw1-6m0/edit?usp=sharing",
+    "tags": [
+      {
+        "name": "Publication"
+      }
+    ]
+  },
+  {
+    "name": "Digital Storefront Directions",
+    "image": "pub_dsf.png",
+    "URL": "https://drive.google.com/a/rusd.org/file/d/0BzfR1HL03QLKUG5nSkE3M1FtbG8/view?usp=sharing",
+    "tags": [
+      {
+        "name": "Publication"
+      }
+    ]
+  },
+  {
+    "name": "Training - Contacts and Schedule",
+    "image": "tiss_schedule.png",
+    "URL": "https://docs.google.com/a/rusd.org/document/d/1JwYvJl6qSMYVz3Ile-r-0t60ZTeFQ9kH4idRaGEWvlE/edit?usp=sharing",
+    "tags": [
+      {
+        "name": "Publication"
+      }
+    ]
+  },
+  {
+    "name": "Warehouse Delivery Schedule",
+    "image": "pub_wh.png",
+    "URL": "https://docs.google.com/a/rusd.org/document/d/1ABPeO0s94PiFyirk-zMJ4yIE0ySgZyvfARHW6b0C3CA/edit?usp=sharing",
+    "tags": [
+      {
+        "name": "Publication"
+      }
+    ]
+  },
+  {
+    "name": "Google Apps Status",
+    "image": "sup_gsuitedash.png",
+    "URL": "http://www.google.com/appsstatus#hl=en&v=status",
+    "tags": [
+      {
+        "name": "Support"
+      }
+    ]
+  },
+  {
+    "name": "Call Center",
+    "image": "sup_hd.png",
+    "URL": "https://callcenter.rusd.org/helpdesk/WebObjects/Helpdesk.woa",
+    "tags": [
+      {
+        "name": "Support"
+      }
+    ]
+  }
+]

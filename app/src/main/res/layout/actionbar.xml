@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary" >
+
+    <ImageView
+        android:id="@+id/rusd_logo"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/rusd_logo_actionbar"
+        android:contentDescription="@string/rusd_logo"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/title_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/rusd_logo"
+        android:layout_toEndOf="@id/rusd_logo"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:text="@string/rusd"/>
+
+    <TextView
+        android:id="@+id/title_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_text1"
+        android:layout_toRightOf="@id/rusd_logo"
+        android:layout_toEndOf="@id/rusd_logo"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:text="@string/rusd_is_name"/>
+
+</RelativeLayout>

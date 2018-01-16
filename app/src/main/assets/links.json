@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Call Center",
+    "url": "https://callcenter.rusd.org/helpdesk/WebObjects/Helpdesk.woa"
+  },
+  {
+    "name": "Destiny",
+    "url": "https://destiny.rusd.org/"
+  },
+  {
+    "name": "Digital Storefront",
+    "url": "http://printshop.rusd.org/DSF/"
+  },
+  {
+    "name": "Infinite Campus",
+    "url": "https://racinewi.infinitecampus.org/campus/racine.jsp"
+  },
+  {
+    "name": "ClassLink",
+    "url": "http://apps.rusd.org"
+  },
+  {
+    "name": "Employee Portal - Information Systems",
+    "url": "https://employees.rusd.org/Dept/IS/default.aspx"
+  },
+  {
+    "name": "Employee Self Service",
+    "url": "https://rulsfpd10-lsf01.cloud.infor.com:1448/lawson/portal/"
+  }
+]

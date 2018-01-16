@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">RUSD Information Systems</string>
+    <string name="rusd">RUSD</string>
+    <string name="rusd_name">Racine Unified\nSchool District</string>
+    <string name="rusd_is_name">Information Systems</string>
+    <string name="rusd_is_info">IMC • Print Shop • Student Data • Warehouse</string>
+    <string name="rusd_logo">RUSD Logo</string>
+    <string name="default_notification_channel_id">PUT DEFAULT CHANNEL ID HERE WHEN CREATED</string>
+
+    <!-- Filter Strings -->
+    <string name="filter">FILTER</string>
+    <string name="filter_dialog_text">Choose your topics</string>
+
+    <!-- Login -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_info">Login using your RUSD\naccount credentials</string>
+    <string name="login">Login</string>
+
+    <!-- SettingsActivity -->
+    <string name="subscriptions">Subscriptions</string>
+    <string name="sectionNotifications">Notifications</string>
+    <string name="subscriptions_help">Manage your subscription preferences for notification topics.</string>
+    <string name="show_notifications">Receive Push Notifications</string>
+    <string name="notification_sound">Notification Sound</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="yes_silent">Yes (except on silent)</string>
+    <string name="yes_vibrate">Yes (only when on vibrate)</string>
+    <string name="no">No</string>
+    <string name="Always">Always</string>
+    <string name="unsubscribe">Unsubscribe from these alerts</string>
+    <string name="building_only">Show alerts for my building only</string>
+    <string name="district_wide">Show all district alerts</string>
+    <string name="divider">divider</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_url">http://www.rusd.org/district/information-systems-smart-phone-app-privacy-policy</string>
+    <!-- Navigation Drawer -->
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+</resources>
